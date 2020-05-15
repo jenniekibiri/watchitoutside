@@ -1,0 +1,315 @@
+body{
+    background: rgb(20, 19, 19);
+    color: #fff;
+}
+.navbar{
+    border-bottom:#7a7373 1px solid;
+    opacity: 0.8;
+    padding: 20px;
+}
+li{
+    color: #fff; 
+}
+ul{
+    margin-left:12%;
+}
+.landingPage{
+background: url('/img/landingpic.jpg')no-repeat;
+min-height:750px ;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.landingPageProgram{
+    background: url('/img/Film-Production-Australia.jpg')no-repeat;
+    min-height:700px ;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    .top{
+        margin-top: 55%;
+    }
+    @media only screen and (max-width: 500px) {
+        .top {
+          margin-top: 120%;
+          
+        }
+      }
+     
+    .landingPageSynopsis{
+        background: url('/img/Jumanji_Banner.png')no-repeat;
+        min-height:750px ;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+.dark-overlay{
+    /**to make the text over the image legible*/
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:2;
+    left: 0;
+    width: 100%;
+    min-height:750px;
+}
+.synopsisdark-overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:2;
+    left: 0;
+    width: 100%;
+    min-height:750px; 
+}
+.programdark-overlay{
+    /**to make the text over the image legible*/
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:2;
+    left: 0;
+    width: 100%;
+    min-height:720px;
+}
+.text{
+    margin-top: 20px;
+    padding: 20px;
+}
+.tagline{
+    font-size: 220%;
+}
+.edition{
+    color: red;
+}
+.days{
+    padding: 5px;
+}
+.hours{
+    padding: 5px;  
+}
+.minutes{
+    padding: 5px;
+}
+.seconds{
+    padding: 5px;
+}
+.countdown{
+    font-size: 150%;
+}
+.news{
+max-width: 100%;
+max-height: auto;
+}
+.card-img{
+    max-height:450px;
+   
+}
+.news{
+    height: 350px;
+    
+}
+.boston{
+    height:250px;
+}
+.cardNews{
+    color: rgb(180, 59, 3);
+    display: block;
+    background: white;
+    margin-top: -40px;
+    margin-right: 230px;
+    margin-left: -20px;
+    align-items: center;
+}
+.map-responsive{
+    height:450;
+}
+.map-responsive iframe{
+   
+    height:450px;
+    width:100%;
+ 
+}
+.bostonImage{
+    height: 450px;
+}
+.fa-instagram {
+   
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.modalbtn{
+    align-items: center;
+    
+}
+.moviePic{
+    margin-top: -35px;
+    z-index: 1;
+    margin-left: -85%;
+
+   
+}
+
+.movieTitle{
+    margin-top: 35%;
+    
+}
+
+@media screen and (max-width: 760px) {
+    
+    .publicgarden{
+      width: 330px;
+      margin-bottom: 20px;  
+            
+        }
+}
+@media screen and (max-width: 760px) {
+    
+    .publicgardenmap{
+      width: 330px;
+      margin-bottom: 20px;  
+            
+        }
+}
+@media screen and (max-width: 760px) {
+    
+    .landingPageSynopsis{
+        background: url('/img/Jumanji_Banner.png')no-repeat;
+        min-height:500px ;
+            background-size: cover;
+            background-attachment: fixed;
+            
+        }
+}
+@media screen and (max-width: 760px) {
+    .movieTitle{
+   font-size: 35px;
+   margin-top: 76%;
+   
+    }
+}
+@media screen and (max-width: 760px) {
+    .trailer{
+    width: 300px;
+    margin-right: 20px;
+    }
+}
+.description{
+    margin-left: -18%;
+}
+.posterDesc{
+    margin-left:-90%;
+    font-size:25px;
+}
+#myFooter {
+    background-color: #17181a;
+    color: white;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter .logo{
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .youtube:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info{
+        text-align: center;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+/* html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+} */
+
+/** {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }*/ 
+
+#myFooter{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}
+.starring{
+    list-style-type: none;
+}
+.next{
+    margin-top: 80%;
+    color: rgb(235, 223, 223);
+    margin-left: 90%;
+    
+}
